@@ -1,27 +1,43 @@
-body {
-    background-color: white;
-}
-
 .btn {
     cursor: pointer;
 }
 
 h1 {
-    color: lightcoral;
+    color: rgb(253, 156, 156);
+    font-size: 40px;
+    height: 100px;
+    text-align: center;
+    padding: 50px;
 }
 
 h1:nth-child(1) {
-    color: beige;
+    color: white;
     transition: color .5s ease-in-out;
+    text-align: center;
+    font-size: 165px;
+    font-family: Baskerville Old Face;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    height: 165px;
+}
+
+input[type="text"] {
+    height: 30px;
+    line-height: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 41%
 }
 
 .clicked {
-    color: cornflowerblue;
+    color: rgb(193, 214, 252);
 }
 
 .form,
 .greetings {
     display: none;
+    text-align: center;
 }
 
 .showing {
@@ -48,12 +64,14 @@ h1:nth-child(1) {
 }
 
 .js-greetings {
-    color: slateblue
+    color: rgb(252, 221, 201);
+    font-size: 30px;
 }
 
 
 .js-toDoList {
-    color: khaki
+    color: white;
+    padding-left: 400px;
 }
 
 .js-weather {
