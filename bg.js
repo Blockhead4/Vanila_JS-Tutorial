@@ -1,6 +1,6 @@
 const body = document.querySelector("body");
 
-const IMG_NUMBER = 7;
+const IMG_NUMBER = 15;
 
 function paintImage(imgNumber) {
     const image = new Image();
@@ -14,10 +14,10 @@ function genRandom() {
     return number;
 }
 
+
 function init() {
     const randomNumber = genRandom();
     paintImage(randomNumber);
 }
-
 
 init();
